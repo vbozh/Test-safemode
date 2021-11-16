@@ -1,0 +1,18 @@
+Index: src/main/java/Class1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Class1 {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Class1.java b/src/main/java/Class1.java
+--- a/src/main/java/Class1.java	(revision b6da0b4431a12f4b9524805d1ea8ceea298f3442)
++++ b/src/main/java/Class1.java	(date 1637059721160)
+@@ -1,2 +1,7 @@
+ public class Class1 {
++    public static void main(String[] args) {
++        for (int i = 0; i < 5; i++) {
++            System.out.println("i");
++        }
++    }
+ }

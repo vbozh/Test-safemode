@@ -1,0 +1,17 @@
+Index: src/main/java/Class2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Class2 {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Class2.java b/src/main/java/Class2.java
+--- a/src/main/java/Class2.java	(revision b6da0b4431a12f4b9524805d1ea8ceea298f3442)
++++ b/src/main/java/Class2.java	(date 1637059739471)
+@@ -1,2 +1,6 @@
+ public class Class2 {
++
++    public void foo() {
++
++    }
+ }
